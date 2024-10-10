@@ -1,0 +1,9 @@
+# Ignorar archivos de configuración específicos del entorno y registros
+*.log
+*.gz
+server_1.20/.console_history
+logs/
+
+# Ignorar directorios relacionados con el servidor Paper
+cache/
+crash-reports/
