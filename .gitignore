@@ -7,3 +7,5 @@ logs/
 # Ignorar directorios relacionados con el servidor Paper
 cache/
 crash-reports/
+serverBuilders_1.20/.console_history
+serverBuilders_1.20/.console_history
