@@ -1,0 +1,2 @@
+java -Xms4G -Xmx8G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1 -jar server.jar nogui
+PAUSE

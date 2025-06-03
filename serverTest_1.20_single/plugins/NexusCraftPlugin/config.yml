@@ -1,7 +1,0 @@
-# Type de Servidor [LOBBY, MINIGAMES]
-serverType: MINIGAMES
-
-# Type de MiniGame []
-minigameType: TestMinigame
-countdownTime: 30
-minPlayer: 4

@@ -1,0 +1,9 @@
+# Minigames
+FROM itzg/minecraft-server
+
+COPY ./paper-global.yml /config/paper-global.yml
+COPY ./worlds/world-minigame_dbd /data/world
+COPY ./ops.json /data/ops.json
+COPY ./plugins/plugins-minigame_dbd /data/plugins
+
+RUN chown -R 1000:1000 /data
