@@ -22,6 +22,7 @@
 	"vfx": {
 		"pre": {
 			"particleType": "CAMPFIRE_COSY_SMOKE",
+			"particleCount": 2,
 			"count": 20,
 			"offsetX": 0.1,
 			"offsetY": 0.1,
@@ -53,31 +54,30 @@
     ],
 	"vfx": {
 		"pre": {
-			"particleType": "CAMPFIRE_COSY_SMOKE",
-			"count": 30,
-			"offsetX": 0.1,
-			"offsetY": 1,
-			"offsetZ": 0.1,
-			"radius": 0.5,
-			"speed": 0.1,
+			"particleType": "SMOKE_NORMAL",
+			"particleCount": 2,
+			"count": 100,
+			"offsetX": 0.8,
+			"offsetY": 2,
+			"offsetZ": 0.8,
+			"radius": 5.1,
+			"speed": 0.01,
 			"pattern": "RING"
 		},
-		"post": {
-			"particleType": "CAMPFIRE_COSY_SMOKE",
-			"count": 20,
-			"offsetX": 0.1,
-			"offsetY": 0.1,
-			"offsetZ": 0.1,
-			"radius": 0.5,
-			"speed": 0.1,
-			"pattern": "RING"
+		"stay": {
+			"particleType": "CLOUD",
+			"particleCount": 50,
+			"offsetX": 0.3,
+			"offsetY": 1.5,
+			"offsetZ": 0.3,
+			"speed": 0.01
 		}
 	}
   },
   {
     "name": "<bold><green>Roca de cueva",
     "material": "COBBLESTONE",
-    "cooldown": 5000,
+    "cooldown": 8000,
     "abilities": [
       {
         "name": "Projectile_Effect",
@@ -93,7 +93,17 @@
         "radius": 0.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"stay": {
+			"particleType": "SMOKE_NORMAL",
+			"particleCount": 40,
+			"offsetX": 0.1,
+			"offsetY": 0.1,
+			"offsetZ": 0.1,
+			"speed": 0.1
+		}
+	}
   },
   {
     "name": "<bold><green>Paso Retorcido",
@@ -114,7 +124,36 @@
         "radius": 0.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"pre": {
+			"particleType": "SMOKE_NORMAL",
+			"particleCount": 10,
+			"count": 10,
+			"offsetX": 0.2,
+			"offsetY": 0.01,
+			"offsetZ": 0.2,
+			"radius": 1.5,
+			"speed": 0.05,
+			"pattern": "RING"
+		},
+		"stay": {
+			"particleType": "SMOKE_LARGE",
+			"particleCount": 10,
+			"offsetX": 0.05,
+			"offsetY": 0.05,
+			"offsetZ": 0.05,
+			"speed": 0.05
+		},
+		"post": {
+			"particleType": "CLOUD",
+			"particleCount": 40,
+			"offsetX": 0.5,
+			"offsetY": 1,
+			"offsetZ": 0.5,
+			"speed": 0.05
+		}
+	}
   },
   {
     "name": "<bold><green>Manto de Agua",
@@ -135,12 +174,37 @@
         "radius": 5.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"stay": {
+			"particleType": "WATER_SPLASH",
+			"particleCount": 15,
+			"count": 15,
+			"offsetX": 0.0,
+			"offsetY": 0.5,
+			"offsetZ": 0.0,
+			"radius": 5.0,
+			"speed": 0.05,
+			"pattern": "RANDOM_SPREAD"
+			
+		},
+		"post": {
+			"particleType": "CLOUD",
+			"particleCount": 15,
+			"count": 15,
+			"offsetX": 0.0,
+			"offsetY": 0.5,
+			"offsetZ": 0.0,
+			"radius": 5.0,
+			"speed": 0.05,
+			"pattern": "RANDOM_SPREAD"
+		}
+	}
   },
   {
     "name": "<bold><green>Escapada Fluida",
     "material": "PRISMARINE_SHARD",
-    "cooldown": 15000,
+    "cooldown": 1500,
     "abilities": [
       {
         "name": "Buff_Effect_Self",
@@ -170,7 +234,31 @@
         "radius": 0.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"pre": {
+			"particleType": "CLOUD",
+			"particleCount": 3,
+			"count": 10,
+			"offsetX": 0.0,
+			"offsetY": 0.0,
+			"offsetZ": 0.0,
+			"radius": 0.5,
+			"speed": 0.01,
+			"pattern": "RING"
+		},
+		"stay": {
+			"particleType": "WATER_SPLASH",
+			"particleCount": 5,
+			"count": 15,
+			"offsetX": 0.08,
+			"offsetY": 0.1,
+			"offsetZ": 0.08,
+			"radius": 0.5,
+			"speed": 0.05,
+			"pattern": "RANDOM_SPREAD"
+		}
+	}
   },
   {
     "name": "<bold><green>Ojo Vigilante",
@@ -191,7 +279,28 @@
         "radius": 0.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"stay": {
+			"particleType": "CLOUD",
+			"particleCount": 5,
+			"offsetX": 0.0,
+			"offsetY": 0.0,
+			"offsetZ": 0.0,
+			"speed": 0.1
+		},
+		"post": {
+			"particleType": "CLOUD",
+			"particleCount": 10,
+			"count": 20,
+			"offsetX": 0.2,
+			"offsetY": 1,
+			"offsetZ": 0.2,
+			"radius": 0.5,
+			"speed": 0.01,
+			"pattern": "RING"
+		}
+	}
   },
   {
     "name": "<bold><green>Paso Sigiloso",
@@ -226,7 +335,17 @@
         "radius": 0.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"stay": {
+			"particleType": "CLOUD",
+			"particleCount": 20,
+			"offsetX": 0.1,
+			"offsetY": 0.2,
+			"offsetZ": 0.1,
+			"speed": 0.2
+		}
+	}
   },
   {
 	"name": "<bold><green>Susurro del Trauco",
@@ -236,15 +355,15 @@
       {
         "name": "AOE_Effect",
         "projectileType": "UNKNOWN",
-        "potionEffectName": "SLOW",
+        "potionEffectName": "GLOWING",
         "vector": "",
         "damage": 0,
         "splashDamage": 0,
-        "duration": 20,
+        "duration": 40,
         "amplifier": 1,
         "manaCost": 0,
         "range": 0.0,
-        "radius": 2.0,
+        "radius": 3.0,
         "delay": 0.0
       },
       {
@@ -258,10 +377,31 @@
         "amplifier": 1,
         "manaCost": 0,
         "range": 0.0,
-        "radius": 2.0,
+        "radius": 3.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"pre": {
+			"particleType": "SMOKE_NORMAL",
+			"particleCount": 15,
+			"count": 15,
+			"offsetX": 0.8,
+			"offsetY": 2,
+			"offsetZ": 0.8,
+			"radius": 8.1,
+			"speed": 0.05,
+			"pattern": "RANDOM_SPREAD"
+		},
+		"stay": {
+			"particleType": "SMOKE_LARGE",
+			"particleCount": 25,
+			"offsetX": 0.4,
+			"offsetY": 1.3,
+			"offsetZ": 0.4,
+			"speed": 0.02
+		}
+	}
   },
   {
     "name": "<bold><green>Paso Esquivo",
@@ -282,12 +422,41 @@
         "radius": 0.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"pre": {
+			"particleType": "SMOKE_NORMAL",
+			"particleCount": 10,
+			"count": 10,
+			"offsetX": 0.2,
+			"offsetY": 0.01,
+			"offsetZ": 0.2,
+			"radius": 1.2,
+			"speed": 0.03,
+			"pattern": "RING"
+		},
+		"stay": {
+			"particleType": "SMOKE_LARGE",
+			"particleCount": 10,
+			"offsetX": 0.05,
+			"offsetY": 0.05,
+			"offsetZ": 0.05,
+			"speed": 0.05
+		},
+		"post": {
+			"particleType": "CLOUD",
+			"particleCount": 20,
+			"offsetX": 0.5,
+			"offsetY": 1,
+			"offsetZ": 0.5,
+			"speed": 0.05
+		}
+	}
   },
   {
     "name": "<bold><green>Grito miserable",
     "material": "NAUTILUS_SHELL",
-    "cooldown": 1000,
+    "cooldown": 8000,
     "abilities": [
       {
 		"name": "AOE_EFFECT",
@@ -303,7 +472,28 @@
         "radius": 6.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"pre": {
+			"particleType": "SMOKE_NORMAL",
+			"particleCount": 10,
+			"count": 10,
+			"offsetX": 0.8,
+			"offsetY": 2,
+			"offsetZ": 0.8,
+			"radius": 8.1,
+			"speed": 0.05,
+			"pattern": "RANDOM_SPREAD"
+		},
+		"stay": {
+			"particleType": "GLOW",
+			"particleCount": 30,
+			"offsetX": 0.2,
+			"offsetY": 1.3,
+			"offsetZ": 0.2,
+			"speed": 0.01
+		}
+	}
   },
   {
     "name": "<bold><green>Manto oscuro",
@@ -324,7 +514,28 @@
         "radius": 5.0,
         "delay": 0.0
       }
-    ]
+    ],
+	"vfx": {
+		"pre": {
+			"particleType": "SMOKE_NORMAL",
+			"particleCount": 15,
+			"count": 15,
+			"offsetX": 0.8,
+			"offsetY": 2,
+			"offsetZ": 0.8,
+			"radius": 8.1,
+			"speed": 0.02,
+			"pattern": "RANDOM_SPREAD"
+		},
+		"stay": {
+			"particleType": "CLOUD",
+			"particleCount": 20,
+			"offsetX": 0.6,
+			"offsetY": 1.3,
+			"offsetZ": 0.6,
+			"speed": 0.03
+		}
+	}
   }
 ]
 	
