@@ -1,0 +1,5 @@
+content: <gray>You are currently vanished!
+delay: 20
+period: 20
+id: actionbar
+enabled: true

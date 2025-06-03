@@ -1,0 +1,3 @@
+inject-placeholders: true
+id: hook_placeholderapi
+enabled: true

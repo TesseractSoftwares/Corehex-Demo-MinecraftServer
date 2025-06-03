@@ -1,0 +1,31 @@
+check-every-x-minutes: 1440
+notify-permission: sayanvanish.feature.update.notify
+notify-on-join: true
+notify-for-snapshot-builds: true
+auto-update-notification: true
+update-notification-content:
+- <green>A new version of <white>SayanVanish</white> is available!
+- '<gold> - Latest release: <white><latest_release_name>'
+- '  <yellow>- <gray>Click to download: <blue><click:open_url:''<latest_release_url_paper>''>Paper</click>
+  <gray>|</gray> <aqua><click:open_url:''<latest_release_url_velocity>''>Velocity</click>
+  <gray>|</gray> <blue><click:open_url:''<latest_release_url_waterfall>''>Waterfall</click>'
+- '  <yellow>- <gray><click:open_url:''https://hangar.papermc.io/Syrent/SayanVanish/versions/<latest_release_name>''>Click
+  to see full changelog'
+- '<gold> - Latest snapshot: <white><latest_snapshot_name>'
+- '  <yellow>- <gray>Click to download: <blue><click:open_url:''<latest_snapshot_url_paper>''>Paper</click>
+  <gray>|</gray> <aqua><click:open_url:''<latest_snapshot_url_velocity>''>Velocity</click>
+  <gray>|</gray> <blue><click:open_url:''<latest_snapshot_url_waterfall>''>Waterfall</click>'
+- '  <yellow>- <gray><click:open_url:''https://hangar.papermc.io/Syrent/SayanVanish/versions/<latest_snapshot_name>''>Click
+  to see full changelog'
+update-request-content:
+- <green>A new version of <white>SayanVanish</white> is available!
+- <hover:show_text:'<red>Click to update'><click:run_command:'/vanish forceupdate'><aqua>You
+  can install version <version> by clicking on this message</click></hover>
+- <red>Make sure to read the changelog before doing any update to prevent unexpected
+  behaviors
+proxy-words:
+- proxy
+- velocity
+- bungee
+id: update
+enabled: true

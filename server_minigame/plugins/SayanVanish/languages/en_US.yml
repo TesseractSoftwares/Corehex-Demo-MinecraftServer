@@ -1,0 +1,65 @@
+general:
+  prefix: <#67e8f9>SayanVanish</#67e8f9> <gray>|</gray> <yellow>
+  reloaded: <green>Plugin successfully reloaded. <red>Please note that some changes
+    may require a server restart to take effect. Subsequent reloads may cause issues.
+  player-not-found: <red>Player not found
+  user-not-found: <red>Couldn't get user data for player <gold><player></gold>
+  have-to-provide-player: <red>You have to provide a player.
+  dont-have-permission: <red>You don't have permission to do that.
+  confirm-update: <red>Execute update again to update the plugin.
+  updating: <gray>Updating the plugin... please wait.
+  updated: <green>Plugin has been successfully updated to version <gold><version></gold>
+    and the update will be applied on next server restart.
+  proxy-update-warning: <red>Please note that this update could impact your proxy
+    server. Be sure to update your proxy server separately to ensure compatibility.
+  update-failed: <red>Failed to update the plugin. Please try again later.
+vanish:
+  placeholder-prefix: '&7[Vanished]&r '
+  placeholder-suffix: ' &r&7[Vanished]'
+  vanish-state-update: <gray>Your vanish state has been updated to <state>.
+  offline-on-vanish: <gray><gold><player></gold> is currently offline. The vanish
+    state has been updated to <state> and will take effect upon their return.
+  vanish-state-other: <gray>The vanish state of <gold><player></gold> has been updated
+    to <state>.
+  left-the-server-while-vanished: <gray><gold><player></gold> left the server while
+    vanished.
+  joined-the-server-while-vanished: <gray><gold><player></gold> joined the server
+    while vanished.
+  vanish-from-queue: <gray>Your vanish state has been changed to <gold><state></gold>
+    from queue.
+  cant-chat-while-vanished: <gray>You can't chat while you are vanished, add <gold><bold><char></bold></gold>
+    at the beginning of your message to bypass this.
+  level-set: <gray><gold><player></gold> vanish level has been set to <gold><level></gold>
+  level-get: <gray><gold><player></gold> vanish level is <gold><level></gold>
+  dont-have-use-permission: <red>You got vanished but you don't have permission to
+    use vanish <gray>(<permission>)</gray>. your vanish status will not be persistent
+    between sessions.
+  no-permission-to-keep-vanished: <red>You don't have <gray><permission></gray> permission
+    to keep your vanish status.
+feature:
+  not-found: <red>Feature not found
+  enabled: <gray><gold><feature></gold> has been enabled.
+  disabled: <gray><gold><feature></gold> has been disabled.
+  already-disabled: <gray><gold><feature></gold> is already disabled.
+  already-enabled: <gray><gold><feature></gold> is already enabled.
+  updated: <gray><gold><feature> <option></gold> has been updated to <gold><state></gold>.
+  invalid-option: <red>Invalid option, valid options are <gold><options></gold>.
+  invalid-value: <red>Invalid value, valid values are <gold><values></gold>.
+  reset: <gray><gold><feature></gold> has been reset.
+  status: <gray><gold><feature></gold> feature status is <status>.
+  toggle-player: <gray><gold><player></gold> <aqua><feature></aqua> feature state
+    has been updated to <state>.
+  toggle-player-other: <red>You don't have permission to change change other players
+    feature state.
+  permission-level-method-warning: '<red>This server uses <method> for vanish levels.
+    To change the vanish level, use a permission system like LuckPerms or another
+    available method. Available methods: <gold><methods></gold>.'
+  fly-disabled: <red>You don't have keep fly after reappear permission, fly has been
+    disabled.
+paste:
+  use: <gray>Your paste key is <gold><key></gold>, <red>Make sure to check the content
+    before sharing it with others and remove the data you don't want to share. <white><click:open_url:'https://pastes.dev/<key>'>(Click
+    to open in pastes.dev)</click>
+  generating: <gold>Generating paste, please wait...
+  failed-to-generate: <red>Failed to generate paste, please try again later and make
+    sure your machine is connected to internet.

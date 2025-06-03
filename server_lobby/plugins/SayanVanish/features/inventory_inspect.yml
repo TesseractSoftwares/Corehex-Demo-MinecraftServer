@@ -1,0 +1,4 @@
+modification-permission: SayanVanish.features.inventory_inspect.modify
+player-inventory-map: []
+id: inventory_inspect
+enabled: true

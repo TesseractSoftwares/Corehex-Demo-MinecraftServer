@@ -1,0 +1,22 @@
+{
+  "uuid": "bb125ce0-2d4b-4539-92ad-cbaed258f253",
+  "name": "Koir_Syien",
+  "primaryGroup": "admin",
+  "permissions": [
+    {
+      "permission": "luckperms.*",
+      "value": true
+    }
+  ],
+  "parents": [
+    {
+      "group": "admin"
+    }
+  ],
+  "meta": [
+    {
+      "key": "lp-editor-key",
+      "value": "R4uxpvEsjdmk8tPx57uBVUVpYKs="
+    }
+  ]
+}

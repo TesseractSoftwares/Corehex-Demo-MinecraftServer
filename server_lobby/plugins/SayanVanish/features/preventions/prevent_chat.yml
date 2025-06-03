@@ -1,0 +1,4 @@
+bypass-char: '!'
+priority: HIGH
+id: prevent_chat
+enabled: true

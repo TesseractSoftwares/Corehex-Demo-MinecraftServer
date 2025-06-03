@@ -1,0 +1,6 @@
+send-quit-message-on-vanish: true
+send-join-message-on-unvanish: true
+quit-message: '%player% left the server'
+join-message: '%player% joined the server'
+id: hook_discordsrv
+enabled: true
