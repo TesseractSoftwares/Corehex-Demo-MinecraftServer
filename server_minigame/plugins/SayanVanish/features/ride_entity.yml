@@ -1,0 +1,5 @@
+leave-vehicle-when-others-enter: true
+exit-message: <red>You have been removed from the vehicle. because someone else entered
+  it.
+id: ride_entity
+enabled: true

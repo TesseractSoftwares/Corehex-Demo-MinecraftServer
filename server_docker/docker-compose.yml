@@ -1,0 +1,82 @@
+services:
+  proxy:
+    build: ./server-proxy
+    container_name: velocity
+    environment:
+      TYPE: VELOCITY
+      CFG_MOTD: Powered by Docker
+      VELOCITY_PROXY_SECRET: uIS31ripN1Yc
+      REPLACE_ENV_VARIABLES: "true"
+      DEBUG: "true"
+      ENABLE_RCON: "true"
+    ports:
+      - "25565:25577"
+    networks:
+      - minecraft-net
+
+  lobby1:
+    build: 
+      context: ./server_data
+      dockerfile: Dockerfile.lobby
+    container_name: lobby1
+    environment:
+      VERSION: "1.20.1"
+      EULA: "TRUE"
+      TYPE: PAPER
+      SERVER_NAME: Lobby1
+      ONLINE_MODE: "FALSE"
+      VELOCITY_ENABLED: "true"
+      VELOCITY_PROXY_SECRET: uIS31ripN1Yc
+      VELOCITY_PROXY_HOST: velocity
+      DEBUG: "true"
+      MEMORY: 1G
+    networks:
+      - minecraft-net
+    expose:
+      - "25565"
+
+  minigames:
+    build:
+      context: ./server_data
+      dockerfile: Dockerfile.minigames
+    container_name: minigames
+    environment:
+      VERSION: "1.20.1"
+      EULA: "TRUE"
+      TYPE: PAPER
+      SERVER_NAME: Minijuegos
+      ONLINE_MODE: "FALSE"
+      VELOCITY_ENABLED: "true"
+      VELOCITY_PROXY_SECRET: uIS31ripN1Yc
+      VELOCITY_PROXY_HOST: velocity
+      DEBUG: "true"
+      MEMORY: 1G
+    networks:
+      - minecraft-net
+    expose:
+      - "25565"
+
+  builds:
+    build:
+      context: ./server_data
+      dockerfile: Dockerfile.builds
+    container_name: builder
+    environment:
+      VERSION: "1.20.1"
+      EULA: "TRUE"
+      TYPE: PAPER
+      SERVER_NAME: Buils
+      ONLINE_MODE: "FALSE"
+      VELOCITY_ENABLED: "true"
+      VELOCITY_PROXY_SECRET: uIS31ripN1Yc
+      VELOCITY_PROXY_HOST: velocity
+      DEBUG: "true"
+      MEMORY: 1G
+    networks:
+      - minecraft-net
+    expose:
+      - "25565"
+
+networks:
+  minecraft-net:
+    driver: bridge

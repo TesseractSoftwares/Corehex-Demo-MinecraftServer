@@ -1,0 +1,6 @@
+fallback-mode: SURVIVAL
+check-game-mode-change: false
+check-toggle-sneak: true
+time-window-ticks: 8
+id: gamemode
+enabled: true

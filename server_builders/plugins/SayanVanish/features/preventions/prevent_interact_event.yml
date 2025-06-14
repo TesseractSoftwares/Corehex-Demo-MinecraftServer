@@ -1,0 +1,7 @@
+pressure-plate-trigger: true
+drip-leaf: true
+interact: false
+tripwire: true
+button: true
+id: prevent_interact_event
+enabled: true

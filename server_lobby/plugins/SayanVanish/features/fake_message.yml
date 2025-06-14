@@ -1,0 +1,9 @@
+send-fake-join-message: false
+send-fake-quit-message: false
+fake-join-message: <yellow><player> joined the game
+fake-quit-message: <yellow><player> left the game
+use-legacy-formatter: false
+disable-join-message-if-vanished: true
+disable-quit-message-if-vanished: true
+id: fake_message
+enabled: true

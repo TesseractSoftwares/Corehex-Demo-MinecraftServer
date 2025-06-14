@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "bb125ce0-2d4b-4539-92ad-cbaed258f253",
+    "name": "Koir_Syien",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0920bb15-0453-394d-b11d-e565d6e424c0",
+    "name": "Koir_Syien",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "536976f5-94f8-38d1-b62c-4434dd8cb267",
+    "name": "COCO",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b116de8d-9442-3f07-b8bd-1907a4a397ad",
+    "name": "Dkavik",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

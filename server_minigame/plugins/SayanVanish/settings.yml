@@ -1,0 +1,14 @@
+general:
+  server-id: default-6e42a610-cbdf-4104-9942-654755cddc60
+  language: en_US
+  include-prefix-in-messages: true
+  bstats: true
+  proxy-mode: false
+  cache-update-period-ticks: 20
+  basic-cache-update-period-ticks: 20
+vanish-command:
+  name: vanish
+  aliases:
+  - v
+  - sayanvanish
+  - sv

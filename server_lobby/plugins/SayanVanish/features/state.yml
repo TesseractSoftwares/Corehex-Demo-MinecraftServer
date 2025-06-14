@@ -1,0 +1,7 @@
+remember: true
+vanish-on-join: false
+reappear-on-quit: false
+check-permission-on-quit: true
+check-permission-on-join: true
+id: state
+enabled: true
