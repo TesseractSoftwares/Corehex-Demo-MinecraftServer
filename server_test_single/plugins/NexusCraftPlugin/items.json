@@ -5,32 +5,31 @@
     "cooldown": 8000,
     "abilities": [
       {
-        "name": "Leap",
+        "name": "AOE_EFFECT",
         "projectileType": "UNKNOWN",
-        "potionEffectName": "",
-        "vector": "FORWARD",
-        "damage": 0,
-        "splashDamage": 0,
-        "duration": 0,
-        "amplifier": 0,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "vector": "FORWARD"
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "CAMPFIRE_COSY_SMOKE",
-			"particleCount": 2,
-			"count": 20,
-			"offsetX": 0.1,
-			"offsetY": 0.1,
-			"offsetZ": 0.1,
-			"radius": 0.5,
-			"speed": 0.01
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "CAMPFIRE_COSY_SMOKE",
+        "particleCount": 2,
+        "count": 20,
+        "offsetX": 0.1,
+        "offsetY": 0.1,
+        "offsetZ": 0.1,
+        "radius": 0.5,
+        "speed": 0.01
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "BLOCK_SHROOMLIGHT_BREAK",
+        "volume": 0.9,
+        "pitch": 0.5,
+        "sourcer": "LOCAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Mirada del Trauco",
@@ -38,41 +37,49 @@
     "cooldown": 15000,
     "abilities": [
       {
-        "name": "AOE_Effect",
+        "name": "AOE_EFFECT",
         "projectileType": "UNKNOWN",
         "potionEffectName": "SLOW",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
         "duration": 30,
         "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 5.0,
-        "delay": 0.0
+        "radius": 5
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "SMOKE_NORMAL",
-			"particleCount": 2,
-			"count": 100,
-			"offsetX": 0.8,
-			"offsetY": 2,
-			"offsetZ": 0.8,
-			"radius": 5.1,
-			"speed": 0.01,
-			"pattern": "RING"
-		},
-		"stay": {
-			"particleType": "CLOUD",
-			"particleCount": 50,
-			"offsetX": 0.3,
-			"offsetY": 1.5,
-			"offsetZ": 0.3,
-			"speed": 0.01
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "SMOKE_NORMAL",
+        "particleCount": 2,
+        "count": 100,
+        "offsetX": 0.8,
+        "offsetY": 2,
+        "offsetZ": 0.8,
+        "radius": 5.1,
+        "speed": 0.01,
+        "pattern": "RING"
+      },
+      "stay": {
+        "particleType": "CLOUD",
+        "particleCount": 50,
+        "offsetX": 0.3,
+        "offsetY": 1.5,
+        "offsetZ": 0.3,
+        "speed": 0.01
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "BLOCK_SHROOMLIGHT_PLACE",
+        "volume": 1.2,
+        "pitch": 0.6,
+        "sourcer": "GLOBAL"
+      },
+      "post": {
+        "soundType": "ENTITY_ENDERMITE_STEP",
+        "volume": 1,
+        "pitch": 2,
+        "sourcer": "LOCAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Roca de cueva",
@@ -83,27 +90,34 @@
         "name": "Projectile_Effect",
         "projectileType": "SNOWBALL",
         "potionEffectName": "SLOW",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
         "duration": 40,
-        "amplifier": 255,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "amplifier": 255
       }
     ],
-	"vfx": {
-		"stay": {
-			"particleType": "SMOKE_NORMAL",
-			"particleCount": 40,
-			"offsetX": 0.1,
-			"offsetY": 0.1,
-			"offsetZ": 0.1,
-			"speed": 0.1
-		}
-	}
+    "vfx": {
+      "stay": {
+        "particleType": "SMOKE_NORMAL",
+        "particleCount": 20,
+        "offsetX": 0.1,
+        "offsetY": 0.1,
+        "offsetZ": 0.1,
+        "speed": 0.1
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "BLOCK_STONE_BREAK",
+        "volume": 2.2,
+        "pitch": 2,
+        "sourcer": "GLOBAL"
+      },
+      "post": {
+        "soundType": "ENTITY_ZOMBIE_HURT",
+        "volume": 1.5,
+        "pitch": 2,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Paso Retorcido",
@@ -111,49 +125,53 @@
     "cooldown": 6000,
     "abilities": [
       {
-        "name": "Charge",
-        "projectileType": "UNKNOWN",
-        "potionEffectName": "",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
-        "duration": 10,
-        "amplifier": 0,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "name": "CHARGE",
+        "duration": 10
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "SMOKE_NORMAL",
-			"particleCount": 10,
-			"count": 10,
-			"offsetX": 0.2,
-			"offsetY": 0.01,
-			"offsetZ": 0.2,
-			"radius": 1.5,
-			"speed": 0.05,
-			"pattern": "RING"
-		},
-		"stay": {
-			"particleType": "SMOKE_LARGE",
-			"particleCount": 10,
-			"offsetX": 0.05,
-			"offsetY": 0.05,
-			"offsetZ": 0.05,
-			"speed": 0.05
-		},
-		"post": {
-			"particleType": "CLOUD",
-			"particleCount": 40,
-			"offsetX": 0.5,
-			"offsetY": 1,
-			"offsetZ": 0.5,
-			"speed": 0.05
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "SMOKE_NORMAL",
+        "particleCount": 10,
+        "count": 10,
+        "offsetX": 0.2,
+        "offsetY": 0.01,
+        "offsetZ": 0.2,
+        "radius": 1.5,
+        "speed": 0.05,
+        "pattern": "RING"
+      },
+      "stay": {
+        "particleType": "SMOKE_LARGE",
+        "particleCount": 10,
+        "offsetX": 0.05,
+        "offsetY": 0.05,
+        "offsetZ": 0.05,
+        "speed": 0.05
+      },
+      "post": {
+        "particleType": "CLOUD",
+        "particleCount": 40,
+        "offsetX": 0.5,
+        "offsetY": 1,
+        "offsetZ": 0.5,
+        "speed": 0.05
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "ENTITY_ENDERMAN_TELEPORT",
+        "volume": 1,
+        "pitch": 0.8,
+        "sourcer": "GLOBAL"
+      },
+      "post": {
+        "soundType": "ENTITY_ZOMBIE_HURT",
+        "volume": 1,
+        "pitch": 0.1,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Manto de Agua",
@@ -161,104 +179,95 @@
     "cooldown": 15000,
     "abilities": [
       {
-        "name": "AOE_Lingering",
-        "projectileType": "UNKNOWN",
+        "name": "AOE_LINGERING_EFFECT",
         "potionEffectName": "SLOW",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
         "duration": 30,
         "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 5.0,
-        "delay": 0.0
+        "radius": 5
       }
     ],
-	"vfx": {
-		"stay": {
-			"particleType": "WATER_SPLASH",
-			"particleCount": 15,
-			"count": 15,
-			"offsetX": 0.0,
-			"offsetY": 0.5,
-			"offsetZ": 0.0,
-			"radius": 5.0,
-			"speed": 0.05,
-			"pattern": "RANDOM_SPREAD"
-			
-		},
-		"post": {
-			"particleType": "CLOUD",
-			"particleCount": 15,
-			"count": 15,
-			"offsetX": 0.0,
-			"offsetY": 0.5,
-			"offsetZ": 0.0,
-			"radius": 5.0,
-			"speed": 0.05,
-			"pattern": "RANDOM_SPREAD"
-		}
-	}
+    "vfx": {
+      "stay": {
+        "particleType": "WATER_SPLASH",
+        "particleCount": 15,
+        "count": 15,
+        "offsetX": 0,
+        "offsetY": 0.5,
+        "offsetZ": 0,
+        "radius": 5,
+        "speed": 0.05,
+        "pattern": "RANDOM_SPREAD"
+      },
+      "post": {
+        "particleType": "CLOUD",
+        "particleCount": 15,
+        "count": 15,
+        "offsetX": 0,
+        "offsetY": 0.5,
+        "offsetZ": 0,
+        "radius": 5,
+        "speed": 0.05,
+        "pattern": "RANDOM_SPREAD"
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "ENTITY_ENDERMAN_TELEPORT",
+        "volume": 1.2,
+        "pitch": 0.8,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Escapada Fluida",
     "material": "PRISMARINE_SHARD",
-    "cooldown": 1500,
+    "cooldown": 15000,
     "abilities": [
       {
-        "name": "Buff_Effect_Self",
-        "projectileType": "UNKNOWN",
-        "potionEffectName": "invisibility",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
+        "name": "BUFF_EFFECT_SELF",
+        "potionEffectName": "INVISIBILITY",
         "duration": 20,
         "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 10.0
+        "delay": 10
       },
       {
-        "name": "Leap",
-        "projectileType": "UNKNOWN",
-        "potionEffectName": "",
-        "vector": "FORWARD",
-        "damage": 0,
-        "splashDamage": 0,
-        "duration": 0,
-        "amplifier": 0,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "name": "LEAP",
+        "vector": "FORWARD"
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "CLOUD",
-			"particleCount": 3,
-			"count": 10,
-			"offsetX": 0.0,
-			"offsetY": 0.0,
-			"offsetZ": 0.0,
-			"radius": 0.5,
-			"speed": 0.01,
-			"pattern": "RING"
-		},
-		"stay": {
-			"particleType": "WATER_SPLASH",
-			"particleCount": 5,
-			"count": 15,
-			"offsetX": 0.08,
-			"offsetY": 0.1,
-			"offsetZ": 0.08,
-			"radius": 0.5,
-			"speed": 0.05,
-			"pattern": "RANDOM_SPREAD"
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "CLOUD",
+        "particleCount": 3,
+        "count": 10,
+        "offsetX": 0,
+        "offsetY": 0,
+        "offsetZ": 0,
+        "radius": 0.5,
+        "speed": 0.01,
+        "pattern": "RING"
+      },
+      "stay": {
+        "particleType": "WATER_SPLASH",
+        "particleCount": 5,
+        "count": 15,
+        "offsetX": 0.08,
+        "offsetY": 0.1,
+        "offsetZ": 0.08,
+        "radius": 0.5,
+        "speed": 0.05,
+        "pattern": "RANDOM_SPREAD"
+      }
+    },
+    "sfx": {
+      "stay": {
+        "soundType": "ENTITY_ENDERMAN_TELEPORT",
+        "volume": 1,
+        "pitch": 1.5,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Ojo Vigilante",
@@ -266,142 +275,141 @@
     "cooldown": 30000,
     "abilities": [
       {
-        "name": "Projectile_Effect",
+        "name": "PROJECTILE_EFFECT",
         "projectileType": "ARROW",
         "potionEffectName": "GLOWING",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
         "duration": 100,
-        "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "amplifier": 1
       }
     ],
-	"vfx": {
-		"stay": {
-			"particleType": "CLOUD",
-			"particleCount": 5,
-			"offsetX": 0.0,
-			"offsetY": 0.0,
-			"offsetZ": 0.0,
-			"speed": 0.1
-		},
-		"post": {
-			"particleType": "CLOUD",
-			"particleCount": 10,
-			"count": 20,
-			"offsetX": 0.2,
-			"offsetY": 1,
-			"offsetZ": 0.2,
-			"radius": 0.5,
-			"speed": 0.01,
-			"pattern": "RING"
-		}
-	}
+    "vfx": {
+      "stay": {
+        "particleType": "CLOUD",
+        "particleCount": 5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "offsetZ": 0,
+        "speed": 0.1
+      },
+      "post": {
+        "particleType": "CLOUD",
+        "particleCount": 10,
+        "count": 20,
+        "offsetX": 0.2,
+        "offsetY": 1,
+        "offsetZ": 0.2,
+        "radius": 0.5,
+        "speed": 0.01,
+        "pattern": "RING"
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "ENTITY_SHULKER_SHOOT",
+        "volume": 0.5,
+        "pitch": 1.3,
+        "sourcer": "GLOBAL"
+      },
+      "post": {
+        "soundType": "ENTITY_ALLAY_ITEM_GIVEN",
+        "volume": 1.5,
+        "pitch": 1.5,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Paso Sigiloso",
     "material": "WHITE_DYE",
-    "cooldown": 30000,
+    "cooldown": 25000,
     "abilities": [
       {
-        "name": "Buff_Effect_Self",
-        "projectileType": "UNKNOWN",
-        "potionEffectName": "invisibility",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
+        "name": "BUFF_EFFECT_SELF",
+        "potionEffectName": "INVISIBILITY",
         "duration": 100,
-        "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "amplifier": 1
       },
-	  {
-        "name": "Buff_Effect_Self",
-        "projectileType": "UNKNOWN",
+      {
+        "name": "BUFF_EFFECT_SELF",
         "potionEffectName": "SLOW",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
         "duration": 100,
-        "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "amplifier": 1
       }
     ],
-	"vfx": {
-		"stay": {
-			"particleType": "CLOUD",
-			"particleCount": 20,
-			"offsetX": 0.1,
-			"offsetY": 0.2,
-			"offsetZ": 0.1,
-			"speed": 0.2
-		}
-	}
+    "vfx": {
+      "stay": {
+        "particleType": "CLOUD",
+        "particleCount": 20,
+        "offsetX": 0.1,
+        "offsetY": 0.2,
+        "offsetZ": 0.1,
+        "speed": 0.2
+      }
+    },
+    "sfx": {
+      "stay": {
+        "soundType": "ENTITY_ENDERMAN_TELEPORT",
+        "volume": 0.5,
+        "pitch": 1.2,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
-	"name": "<bold><green>Susurro del Trauco",
+    "name": "<bold><green>Susurro del Trauco",
     "material": "BONE_MEAL",
     "cooldown": 10000,
     "abilities": [
       {
-        "name": "AOE_Effect",
-        "projectileType": "UNKNOWN",
-        "potionEffectName": "GLOWING",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
+        "name": "AOE_EFFECT",
+        "potionEffectName": "SLOW",
         "duration": 40,
         "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 3.0,
-        "delay": 0.0
+        "radius": 3
       },
       {
-        "name": "AOE_Effect",
-        "projectileType": "UNKNOWN",
+        "name": "AOE_EFFECT",
         "potionEffectName": "BLINDNESS",
-        "vector": "",
-        "damage": 0,
-        "splashDamage": 0,
         "duration": 20,
         "amplifier": 1,
-        "manaCost": 0,
-        "range": 0.0,
-        "radius": 3.0,
-        "delay": 0.0
+        "radius": 3
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "SMOKE_NORMAL",
-			"particleCount": 15,
-			"count": 15,
-			"offsetX": 0.8,
-			"offsetY": 2,
-			"offsetZ": 0.8,
-			"radius": 8.1,
-			"speed": 0.05,
-			"pattern": "RANDOM_SPREAD"
-		},
-		"stay": {
-			"particleType": "SMOKE_LARGE",
-			"particleCount": 25,
-			"offsetX": 0.4,
-			"offsetY": 1.3,
-			"offsetZ": 0.4,
-			"speed": 0.02
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "SMOKE_NORMAL",
+        "particleCount": 15,
+        "count": 15,
+        "offsetX": 0.8,
+        "offsetY": 2,
+        "offsetZ": 0.8,
+        "radius": 8.1,
+        "speed": 0.05,
+        "pattern": "RANDOM_SPREAD"
+      },
+      "stay": {
+        "particleType": "SMOKE_LARGE",
+        "particleCount": 25,
+        "offsetX": 0.4,
+        "offsetY": 1.3,
+        "offsetZ": 0.4,
+        "speed": 0.02
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "ENTITY_EVOKER_PREPARE_SUMMON",
+        "volume": 0.8,
+        "pitch": 1.3,
+        "sourcer": "GLOBAL"
+      },
+      "stay": {
+        "soundType": "AMBIENT_CAVE",
+        "volume": 0.2,
+        "pitch": 0.5,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Paso Esquivo",
@@ -409,7 +417,7 @@
     "cooldown": 5000,
     "abilities": [
       {
-        "name": "Charge",
+        "name": "CHARGE",
         "projectileType": "UNKNOWN",
         "potionEffectName": "",
         "vector": "",
@@ -418,40 +426,54 @@
         "duration": 5,
         "amplifier": 0,
         "manaCost": 0,
-        "range": 0.0,
-        "radius": 0.0,
-        "delay": 0.0
+        "range": 0,
+        "radius": 0,
+        "delay": 0
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "SMOKE_NORMAL",
-			"particleCount": 10,
-			"count": 10,
-			"offsetX": 0.2,
-			"offsetY": 0.01,
-			"offsetZ": 0.2,
-			"radius": 1.2,
-			"speed": 0.03,
-			"pattern": "RING"
-		},
-		"stay": {
-			"particleType": "SMOKE_LARGE",
-			"particleCount": 10,
-			"offsetX": 0.05,
-			"offsetY": 0.05,
-			"offsetZ": 0.05,
-			"speed": 0.05
-		},
-		"post": {
-			"particleType": "CLOUD",
-			"particleCount": 20,
-			"offsetX": 0.5,
-			"offsetY": 1,
-			"offsetZ": 0.5,
-			"speed": 0.05
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "SMOKE_NORMAL",
+        "particleCount": 10,
+        "count": 10,
+        "offsetX": 0.2,
+        "offsetY": 0.01,
+        "offsetZ": 0.2,
+        "radius": 1.2,
+        "speed": 0.03,
+        "pattern": "RING"
+      },
+      "stay": {
+        "particleType": "SMOKE_LARGE",
+        "particleCount": 10,
+        "offsetX": 0.05,
+        "offsetY": 0.05,
+        "offsetZ": 0.05,
+        "speed": 0.05
+      },
+      "post": {
+        "particleType": "CLOUD",
+        "particleCount": 20,
+        "offsetX": 0.5,
+        "offsetY": 1,
+        "offsetZ": 0.5,
+        "speed": 0.05
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "ENTITY_ENDERMAN_TELEPORT",
+        "volume": 0.7,
+        "pitch": 0.8,
+        "sourcer": "GLOBAL"
+      },
+      "post": {
+        "soundType": "ENTITY_ZOMBIE_HURT",
+        "volume": 0.7,
+        "pitch": 1.5,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Grito miserable",
@@ -459,41 +481,55 @@
     "cooldown": 8000,
     "abilities": [
       {
-		"name": "AOE_EFFECT",
+        "name": "AOE_EFFECT",
         "projectileType": "UNKNOWN",
         "potionEffectName": "CONFUSION",
         "vector": "",
         "damage": 0,
         "splashDamage": 0,
-        "duration": 200,
+        "duration": 160,
         "amplifier": 5,
         "manaCost": 0,
-        "range": 0.0,
-        "radius": 6.0,
-        "delay": 0.0
+        "range": 0,
+        "radius": 6,
+        "delay": 0
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "SMOKE_NORMAL",
-			"particleCount": 10,
-			"count": 10,
-			"offsetX": 0.8,
-			"offsetY": 2,
-			"offsetZ": 0.8,
-			"radius": 8.1,
-			"speed": 0.05,
-			"pattern": "RANDOM_SPREAD"
-		},
-		"stay": {
-			"particleType": "GLOW",
-			"particleCount": 30,
-			"offsetX": 0.2,
-			"offsetY": 1.3,
-			"offsetZ": 0.2,
-			"speed": 0.01
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "SMOKE_NORMAL",
+        "particleCount": 10,
+        "count": 10,
+        "offsetX": 0.8,
+        "offsetY": 2,
+        "offsetZ": 0.8,
+        "radius": 8.1,
+        "speed": 0.05,
+        "pattern": "RANDOM_SPREAD"
+      },
+      "stay": {
+        "particleType": "GLOW",
+        "particleCount": 30,
+        "offsetX": 0.2,
+        "offsetY": 1.3,
+        "offsetZ": 0.2,
+        "speed": 0.01
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "ENTITY_ENDERMAN_SCREAM",
+        "volume": 0.5,
+        "pitch": 0.5,
+        "sourcer": "GLOBAL"
+      },
+      "stay": {
+        "soundType": "ENTITY_ALLAY_DEATH",
+        "volume": 0.2,
+        "pitch": 0.5,
+        "sourcer": "GLOBAL"
+      }
+    }
   },
   {
     "name": "<bold><green>Manto oscuro",
@@ -501,7 +537,7 @@
     "cooldown": 1000,
     "abilities": [
       {
-		"name": "AOE_EFFECT",
+        "name": "AOE_EFFECT",
         "projectileType": "UNKNOWN",
         "potionEffectName": "INVISIBILITY",
         "vector": "",
@@ -510,32 +546,39 @@
         "duration": 60,
         "amplifier": 1,
         "manaCost": 0,
-        "range": 0.0,
-        "radius": 5.0,
-        "delay": 0.0
+        "range": 0,
+        "radius": 5,
+        "delay": 0
       }
     ],
-	"vfx": {
-		"pre": {
-			"particleType": "SMOKE_NORMAL",
-			"particleCount": 15,
-			"count": 15,
-			"offsetX": 0.8,
-			"offsetY": 2,
-			"offsetZ": 0.8,
-			"radius": 8.1,
-			"speed": 0.02,
-			"pattern": "RANDOM_SPREAD"
-		},
-		"stay": {
-			"particleType": "CLOUD",
-			"particleCount": 20,
-			"offsetX": 0.6,
-			"offsetY": 1.3,
-			"offsetZ": 0.6,
-			"speed": 0.03
-		}
-	}
+    "vfx": {
+      "pre": {
+        "particleType": "SMOKE_NORMAL",
+        "particleCount": 15,
+        "count": 15,
+        "offsetX": 0.8,
+        "offsetY": 2,
+        "offsetZ": 0.8,
+        "radius": 8.1,
+        "speed": 0.02,
+        "pattern": "RANDOM_SPREAD"
+      },
+      "stay": {
+        "particleType": "CLOUD",
+        "particleCount": 20,
+        "offsetX": 0.6,
+        "offsetY": 1.3,
+        "offsetZ": 0.6,
+        "speed": 0.03
+      }
+    },
+    "sfx": {
+      "pre": {
+        "soundType": "BLOCK_ENCHANTMENT_TABLE_USE",
+        "volume": 0.7,
+        "pitch": 0.2,
+        "sourcer": "GLOBAL"
+      }
+    }
   }
 ]
-	
