@@ -1,0 +1,4 @@
+disable-message: true
+revoke-criteria: false
+id: prevent_advancement_announce
+enabled: true

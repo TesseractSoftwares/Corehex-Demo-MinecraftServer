@@ -1,0 +1,21 @@
+args:
+  bungee:
+  - minigame_dbd
+  name:
+  - portal_dbd
+  cooldown:
+  - '1'
+  destination:
+  - lobby
+  triggerblock:
+  - NETHER_PORTAL
+maxLoc:
+  posX: -114
+  posY: 45
+  posZ: 53
+  worldName: world
+minLoc:
+  posX: -126
+  posY: 33
+  posZ: 53
+  worldName: world

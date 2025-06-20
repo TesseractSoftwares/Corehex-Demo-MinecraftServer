@@ -1,0 +1,3 @@
+check-every: 100
+id: proxy_vanish_queue
+enabled: true

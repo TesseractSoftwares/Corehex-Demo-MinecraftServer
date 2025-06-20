@@ -1,0 +1,10 @@
+# Lobby
+FROM itzg/minecraft-server
+
+COPY ./paper-global.yml /config/paper-global.yml
+COPY ./worlds/world-lobby /data/world
+COPY ./ops.json /data/ops.json
+COPY ./plugins/plugins-lobby /data/plugins
+
+
+RUN chown -R 1000:1000 /data

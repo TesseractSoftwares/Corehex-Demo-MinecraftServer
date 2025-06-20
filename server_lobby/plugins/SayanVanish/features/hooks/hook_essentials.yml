@@ -1,0 +1,4 @@
+prevent-afk-status-change: true
+prevent-private-message: true
+id: hook_essentials
+enabled: true

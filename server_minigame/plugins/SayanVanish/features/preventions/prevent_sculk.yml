@@ -1,0 +1,8 @@
+prevent-sculk-sensor: true
+prevent-shriek: true
+sculk-blocks:
+- SCULK_SENSOR
+- CALIBRATED_SCULK_SENSOR
+- SCULK_SHRIEKER
+id: prevent_sculk
+enabled: true

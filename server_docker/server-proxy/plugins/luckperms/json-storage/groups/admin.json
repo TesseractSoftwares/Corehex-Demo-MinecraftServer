@@ -1,0 +1,33 @@
+{
+  "name": "admin",
+  "permissions": [
+    {
+      "permission": "advanced.*",
+      "value": true
+    },
+    {
+      "permission": "enhancedvelocity.*",
+      "value": true
+    },
+    {
+      "permission": "luckperms.*",
+      "value": true
+    },
+    {
+      "permission": "sayanvanish.*",
+      "value": true
+    },
+    {
+      "permission": "velocity.*",
+      "value": true
+    },
+    {
+      "permission": "sayanvanish.commands.use",
+      "value": true
+    },
+    {
+      "permission": "sayanvanish.vanish.use",
+      "value": true
+    }
+  ]
+}
