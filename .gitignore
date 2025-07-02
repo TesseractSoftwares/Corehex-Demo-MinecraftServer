@@ -2,7 +2,6 @@
 *.log
 *.gz
 .VS
-.vs
 server_1.20/.console_history
 logs/
 
