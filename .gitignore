@@ -1,6 +1,8 @@
 # Ignorar archivos de configuración específicos del entorno y registros
 *.log
 *.gz
+.VS
+.vs
 server_1.20/.console_history
 logs/
 
