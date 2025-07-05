@@ -6,6 +6,10 @@
     {
       "permission": "luckperms.*",
       "value": true
+    },
+    {
+      "permission": "sayanvanish.*",
+      "value": true
     }
   ],
   "parents": [
