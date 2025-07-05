@@ -15,3 +15,4 @@
 {"timestamp":1748802652,"source":{"uniqueId":"bb125ce0-2d4b-4539-92ad-cbaed258f253","name":"Koir_Syien@proxy"},"target":{"type":"GROUP","name":"admin"},"description":"webeditor remove sayanvanish.commands.use true"}
 {"timestamp":1748802688,"source":{"uniqueId":"bb125ce0-2d4b-4539-92ad-cbaed258f253","name":"Koir_Syien@proxy"},"target":{"type":"GROUP","name":"admin"},"description":"webeditor add sayanvanish.commands.use true"}
 {"timestamp":1748803034,"source":{"uniqueId":"bb125ce0-2d4b-4539-92ad-cbaed258f253","name":"Koir_Syien@proxy"},"target":{"type":"GROUP","name":"admin"},"description":"webeditor add sayanvanish.vanish.use true"}
+{"timestamp":1751679179,"source":{"uniqueId":"bb125ce0-2d4b-4539-92ad-cbaed258f253","name":"Koir_Syien@proxy"},"target":{"type":"USER","uniqueId":"bb125ce0-2d4b-4539-92ad-cbaed258f253","name":"Koir_Syien"},"description":"permission set sayanvanish.* true"}
