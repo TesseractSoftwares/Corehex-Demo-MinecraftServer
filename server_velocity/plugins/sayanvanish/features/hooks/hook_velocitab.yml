@@ -1,0 +1,5 @@
+check-on-post-server-connect-delay: 150
+check-on-server-connected-delay: 150
+check-on-post-login-delay: 150
+id: hook_velocitab
+enabled: true

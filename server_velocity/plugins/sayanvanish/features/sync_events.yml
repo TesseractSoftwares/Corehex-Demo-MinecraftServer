@@ -1,0 +1,3 @@
+check-period-millis: 50
+id: sync_events
+enabled: true

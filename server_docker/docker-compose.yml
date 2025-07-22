@@ -11,6 +11,9 @@ services:
       ENABLE_RCON: "true"
     ports:
       - "25565:25577"
+      - "19132:19132/udp"
+    volumes:
+      - ../server_velocity/plugins:/server/plugins
     networks:
       - minecraft-net
 
@@ -34,6 +37,8 @@ services:
       - minecraft-net
     expose:
       - "25565"
+    volumes:
+      - ../server_lobby/plugins:/data/plugins
 
   minigames:
     build:

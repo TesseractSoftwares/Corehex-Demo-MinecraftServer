@@ -1,0 +1,27 @@
+method: SQL
+sql:
+  method: SQLITE
+  host: 127.0.0.1
+  port: 3306
+  database: sayanvanish
+  username: minecraft
+  password: ''
+  pool-properties:
+    maximum-pool-size: 5
+    minimum-idle: 5
+    maximum-lifetime: 1800000
+    keepalive-time: 0
+    connection-timeout: 5000
+    use-ssl: false
+    verify-server-certificate: false
+    allow-public-key-retrieval: true
+  table-prefix: sayanvanish_
+redis:
+  type: STANDALONE
+  standalone:
+    host: 127.0.0.1
+    port: 6379
+    user: ''
+    password: ''
+    ssl: false
+use-cache-when-available: true
