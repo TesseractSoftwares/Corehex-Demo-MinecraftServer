@@ -18,7 +18,7 @@ services:
       - minecraft-net
 
   lobby1:
-    build: 
+    build:
       context: ./server_data
       dockerfile: Dockerfile.lobby
     container_name: lobby1
@@ -39,6 +39,9 @@ services:
       - "25565"
     volumes:
       - ../server_lobby/plugins:/data/plugins
+    depends_on:
+      redis:
+        condition: service_healthy
 
   minigames:
     build:
@@ -60,6 +63,8 @@ services:
       - minecraft-net
     expose:
       - "25565"
+    volumes:
+      - ../server_minigame/plugins:/data/plugins
 
   builds:
     build:
@@ -81,6 +86,23 @@ services:
       - minecraft-net
     expose:
       - "25565"
+    volumes:
+      - ../server_builders/plugins:/data/plugins
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    hostname: redis
+    restart: always
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - minecraft-net
+    ports:
+      - "6379:6379"
 
 networks:
   minecraft-net:
