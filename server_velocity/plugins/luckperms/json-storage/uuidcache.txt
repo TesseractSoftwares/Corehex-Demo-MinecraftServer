@@ -1,4 +1,5 @@
 # LuckPerms UUID lookup cache
+f767686d-6681-40ad-b597-69dde80e84b2:znowx
 5aeb0cd5-85d1-49ee-b929-83219af68d4e:banbigote
 00000000-0000-0000-0009-01fd46877015:.ladyorange7279
 bb125ce0-2d4b-4539-92ad-cbaed258f253:Koir_Syien
