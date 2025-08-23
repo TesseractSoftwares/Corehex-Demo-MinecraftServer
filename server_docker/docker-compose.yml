@@ -5,7 +5,7 @@ services:
     environment:
       TYPE: VELOCITY
       CFG_MOTD: Powered by Docker
-      VELOCITY_PROXY_SECRET: uIS31ripN1Yc
+      VELOCITY_PROXY_SECRET: k2_s!d5P@9fG-h3J&t8L$p1N*c7B?e6V+y0W#z%C&v)b1n3m5k7j9H4g6F8d
       REPLACE_ENV_VARIABLES: "true"
       DEBUG: "true"
       ENABLE_RCON: "true"

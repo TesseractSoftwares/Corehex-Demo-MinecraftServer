@@ -6,9 +6,9 @@ players:
     clientType: JAVA
     versionOnRegister: '763'
     firstLogin: 2025/07/22 06:11:59
-    loginCount: 34
-    lastLogin: 2025/08/17 14:52:45
-    playtime: 18448291
+    loginCount: 89
+    lastLogin: 2025/08/23 18:28:47
+    playtime: 27933720
   00000000-0000-0000-0009-01f7f902e775:
     passwordHash: $2a$10$PeA7XjFqw4ntju/JnTG4A.IjyCKvR5xwSUX0YGyuroHwrmmtj/TSm
     email: catrolorenzosegundo@gmail.com

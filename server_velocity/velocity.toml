@@ -88,6 +88,7 @@ try = [
 # ]
 
 [advanced]
+# Habilitar plugin messages
 # How large a Minecraft packet has to be before we compress it. Setting this to zero will
 # compress all packets, and setting it to -1 will disable compression entirely.
 compression-threshold = 256
