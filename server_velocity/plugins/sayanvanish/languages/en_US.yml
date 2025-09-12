@@ -1,0 +1,20 @@
+general:
+  prefix: <#67e8f9>SayanVanish</#67e8f9> <gray>|</gray> <yellow>
+  reloaded: <green>Plugin successfully reloaded. <red>Please note that some changes
+    may require a server restart to take effect. Subsequent reloads may cause issues.
+  player-not-found: <red>Player not found
+  user-not-found: <red>Couldn't get user data for player <gold><player></gold>
+  have-to-provide-player: <red>You have to provide a player.
+  dont-have-permission: <red>You don't have permission to do that.
+  confirm-update: <red>Execute update again to update the plugin.
+  updating: <gray>Updating the plugin... please wait.
+  updated: <green>Plugin has been successfully updated to version <gold><version></gold>
+    and the update will be applied on next server restart.
+  proxy-update-warning: <red>Please note that this update could impact your proxy
+    server. Be sure to update your proxy server separately to ensure compatibility.
+  update-failed: <red>Failed to update the plugin. Please try again later.
+vanish:
+  placeholder-prefix: '&7[Vanished]&r '
+  placeholder-suffix: ' &r&7[Vanished]'
+  vanish-toggle: <gray>Successfully updated <aqua><player></aqua> vanish state to
+    <state>

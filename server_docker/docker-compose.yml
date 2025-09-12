@@ -5,17 +5,20 @@ services:
     environment:
       TYPE: VELOCITY
       CFG_MOTD: Powered by Docker
-      VELOCITY_PROXY_SECRET: uIS31ripN1Yc
+      VELOCITY_PROXY_SECRET: k2_s!d5P@9fG-h3J&t8L$p1N*c7B?e6V+y0W#z%C&v)b1n3m5k7j9H4g6F8d
       REPLACE_ENV_VARIABLES: "true"
       DEBUG: "true"
       ENABLE_RCON: "true"
     ports:
       - "25565:25577"
+      - "19132:19132/udp"
+    volumes:
+      - ../server_velocity/plugins:/server/plugins
     networks:
       - minecraft-net
 
   lobby1:
-    build: 
+    build:
       context: ./server_data
       dockerfile: Dockerfile.lobby
     container_name: lobby1
@@ -34,6 +37,8 @@ services:
       - minecraft-net
     expose:
       - "25565"
+    volumes:
+      - ../server_lobby/plugins:/data/plugins
 
   minigames:
     build:
@@ -55,6 +60,8 @@ services:
       - minecraft-net
     expose:
       - "25565"
+    volumes:
+      - ../server_minigame/plugins:/data/plugins
 
   builds:
     build:
@@ -76,6 +83,8 @@ services:
       - minecraft-net
     expose:
       - "25565"
+    volumes:
+      - ../server_builders/plugins:/data/plugins
 
 networks:
   minecraft-net:

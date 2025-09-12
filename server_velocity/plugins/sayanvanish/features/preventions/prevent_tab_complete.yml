@@ -1,0 +1,3 @@
+check-vanish-level: false
+id: prevent_tab_complete
+enabled: true
