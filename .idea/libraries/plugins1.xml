@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="plugins1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_docker/server_data/plugins/GriefPrevention 16.18.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server_data/plugins/worldguard-bukkit-7.0.9-dist.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

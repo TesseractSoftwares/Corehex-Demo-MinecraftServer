@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="3.29.2-GA">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

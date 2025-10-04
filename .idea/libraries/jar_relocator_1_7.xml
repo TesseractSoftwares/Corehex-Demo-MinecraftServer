@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jar-relocator-1.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/me/lucko/jar-relocator/1.7/jar-relocator-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

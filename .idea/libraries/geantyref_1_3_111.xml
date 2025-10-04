@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="geantyref-1.3.111">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/libraries/io/leangen/geantyref/geantyref/1.3.11/geantyref-1.3.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

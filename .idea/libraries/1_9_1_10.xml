@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.9.1.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_builders/plugins/stickynote/org/sayandev/stickynote-bukkit-nms/1.9.1.10/stickynote-bukkit-nms-1.9.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_builders/plugins/stickynote/org/sayandev/stickynote-bukkit-nms/1.9.1.10/stickynote-bukkit-nms-1.9.1.10.jar-relocated-1983618573.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

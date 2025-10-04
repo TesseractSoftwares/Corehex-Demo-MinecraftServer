@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="2.0.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar-relocated-236152233.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

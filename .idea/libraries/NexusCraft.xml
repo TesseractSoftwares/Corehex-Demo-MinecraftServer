@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NexusCraft">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_test_single/plugins/NexusCraft.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

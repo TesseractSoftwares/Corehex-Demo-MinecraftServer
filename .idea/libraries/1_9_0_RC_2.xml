@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.9.0-RC.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0-RC.2/kotlinx-coroutines-core-1.9.0-RC.2.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0-RC.2/kotlinx-coroutines-core-1.9.0-RC.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

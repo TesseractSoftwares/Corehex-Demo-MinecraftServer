@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="logging-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

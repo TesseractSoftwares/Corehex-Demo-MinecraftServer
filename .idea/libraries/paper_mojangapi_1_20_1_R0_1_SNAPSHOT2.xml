@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="paper-mojangapi-1.20.1-R0.1-SNAPSHOT2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_test_single/libraries/io/papermc/paper/paper-mojangapi/1.20.1-R0.1-SNAPSHOT/paper-mojangapi-1.20.1-R0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="log4j-iostreams-2.19.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_builders/libraries/org/apache/logging/log4j/log4j-iostreams/2.19.0/log4j-iostreams-2.19.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

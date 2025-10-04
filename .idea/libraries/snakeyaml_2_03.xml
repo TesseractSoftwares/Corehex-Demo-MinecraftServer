@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="snakeyaml-2.03">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

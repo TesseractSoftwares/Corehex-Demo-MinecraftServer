@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-codec-smtp-4.1.87.Final1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_lobby/libraries/io/netty/netty-codec-smtp/4.1.87.Final/netty-codec-smtp-4.1.87.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

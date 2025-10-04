@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="asm-9.23">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_builders/plugins/stickynote/org/ow2/asm/asm/9.2/asm-9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

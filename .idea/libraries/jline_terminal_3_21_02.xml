@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jline-terminal-3.21.02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_lobby/libraries/org/jline/jline-terminal/3.21.0/jline-terminal-3.21.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

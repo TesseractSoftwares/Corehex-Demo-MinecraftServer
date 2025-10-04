@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-repository-metadata-3.8.53">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_test_single/libraries/org/apache/maven/maven-repository-metadata/3.8.5/maven-repository-metadata-3.8.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

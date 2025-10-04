@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="json-simple-1.1.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_test_single/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

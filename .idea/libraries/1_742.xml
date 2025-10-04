@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.742">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/bouncycastle/bcutil-jdk15to18/1.74/bcutil-jdk15to18-1.74.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/bouncycastle/bcutil-jdk15to18/1.74/bcutil-jdk15to18-1.74.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

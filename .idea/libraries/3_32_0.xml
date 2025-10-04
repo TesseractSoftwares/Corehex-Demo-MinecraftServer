@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="3.32.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.jar-relocated-236152233.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

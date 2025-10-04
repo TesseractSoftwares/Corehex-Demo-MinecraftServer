@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="3.3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

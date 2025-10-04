@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="velocity-native-3.1.2-SNAPSHOT2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_lobby/libraries/com/velocitypowered/velocity-native/3.1.2-SNAPSHOT/velocity-native-3.1.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
