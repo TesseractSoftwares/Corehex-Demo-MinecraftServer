@@ -1,42 +1,14 @@
 players:
-  0ab6965b-7a02-4731-a92a-602216150c3b:
-    passwordHash: $2a$10$3X9MA6QwEK/v9VZLxRZiW.XRStm8LPtdTaimKYRiym5kk3EfrR3eq
-    email: castrolorenzosegundo@gmail.com
-    registrationIp: 172.20.0.1
-    clientType: JAVA
-    versionOnRegister: '763'
-    firstLogin: 2025/07/22 06:11:59
-    loginCount: 97
-    lastLogin: 2025/09/08 18:22:01
-    playtime: 34069670
-  00000000-0000-0000-0009-01f7f902e775:
-    passwordHash: $2a$10$PeA7XjFqw4ntju/JnTG4A.IjyCKvR5xwSUX0YGyuroHwrmmtj/TSm
-    email: catrolorenzosegundo@gmail.com
-    registrationIp: 172.20.0.1
-    clientType: BEDROCK
-    versionOnRegister: '763'
-    firstLogin: 2025/07/23 14:19:34
-    loginCount: 30
-    lastLogin: 2025/09/08 18:22:30
-    playtime: 9177843
-  00000000-0000-0000-0009-01fd46877015:
-    passwordHash: $2a$10$8ZuhfP134ucCbsGbq/hEfOlt1bwIOJ29ei6hVP9lB16.qC1V1xlHG
-    email: roaignacia64@gmail.com
-    registrationIp: 172.20.0.1
-    clientType: BEDROCK
-    versionOnRegister: '763'
-    firstLogin: 2025/07/28 02:56:28
-    loginCount: 3
-    lastLogin: 2025/07/28 03:04:54
   f767686d-6681-40ad-b597-69dde80e84b2:
-    passwordHash: $2a$10$idmR/0eMLznpOABIofG05ufnR0g05aipOLLiK13i9PqUeeRYvMipu
-    email: hola@mail.com
-    registrationIp: 172.20.0.1
+    passwordHash: $2a$10$OP1A7o9DaKRD90Q7nD545.kioHtsN11NsbmgsLrc3mF7CRorx2IS2
+    email: hola@gmail.com
+    registrationIp: 172.67.70.67
     clientType: JAVA
     versionOnRegister: '763'
-    firstLogin: 2025/08/15 19:46:15
-    loginCount: 4
-    lastLogin: 2025/10/04 00:01:34
-    playtime: 366971
+    birthdate: 15-05-2004
+    firstLogin: 2025/10/30 14:14:43
+    loginCount: 2
+    lastLogin: 2025/10/30 14:15:00
+    playtime: 18930
 
 
