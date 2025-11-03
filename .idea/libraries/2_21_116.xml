@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="2.21.116">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/software/amazon/awssdk/metrics-spi/2.21.1/metrics-spi-2.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/software/amazon/awssdk/metrics-spi/2.21.1/metrics-spi-2.21.1.jar-relocated-236152233.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

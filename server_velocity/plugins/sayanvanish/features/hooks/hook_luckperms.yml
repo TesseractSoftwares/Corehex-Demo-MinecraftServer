@@ -1,0 +1,4 @@
+register-custom-context: true
+check-permission-via-luck-perms: true
+id: hook_luckperms
+enabled: true

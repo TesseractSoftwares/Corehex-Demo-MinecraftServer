@@ -1,0 +1,7 @@
+# Configuración para el servidor de Lobby
+server-type: "lobby"
+
+debug:
+  # Si es 'true', se mostrarán los mensajes de [DEBUG-Heartbeat] en la consola.
+  # Si es 'false', la consola estará limpia.
+  heartbeat: false

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="plugins7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_lobby/plugins/worldedit-bukkit-7.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_lobby/plugins/Advanced-Portals-Spigot-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_lobby/plugins/floodgate-spigot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_lobby/plugins/NexusCraft.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_lobby/plugins/worldguard-bukkit-7.0.9-dist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_lobby/plugins/praxcore-paper-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_lobby/plugins/SayanVanish-1.7.0-SNAPSHOT-build.271-5e3e2cb-bukkit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

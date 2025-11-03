@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="brigadier-1.1.83">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_lobby/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

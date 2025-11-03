@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jar-relocator-1.72">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/stickynote/me/lucko/jar-relocator/1.7/jar-relocator-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

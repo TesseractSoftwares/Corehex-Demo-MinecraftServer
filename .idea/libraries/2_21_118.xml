@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="2.21.118">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/software/amazon/awssdk/http-auth-spi/2.21.1/http-auth-spi-2.21.1.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/software/amazon/awssdk/http-auth-spi/2.21.1/http-auth-spi-2.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

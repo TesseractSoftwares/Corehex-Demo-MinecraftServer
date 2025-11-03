@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="libs2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/commodore-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/h2-driver-2.1.214.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/commodore-file-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/commodore-2.2-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/adventure-platform-4.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/caffeine-2.9.0-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/asm-commons-9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/okio-1.17.5-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/event-3.0.0-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/commodore-file-1.0-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/asm-9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/adventure-platform-bukkit-4.21.1-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/bytebuddy-1.10.22-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/adventure-4.21.1-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/okhttp-3.14.9-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/adventure-platform-bukkit-4.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/adventure-platform-4.21.1-remapped.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/luckperms/libs/jar-relocator-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

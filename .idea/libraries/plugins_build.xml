@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="plugins-build">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_docker/server_data/plugins/plugins-build/worldguard-bukkit-7.0.9-dist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server_data/plugins/plugins-build/SayanVanish-1.7.0-SNAPSHOT-build.271-5e3e2cb-bukkit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server_data/plugins/plugins-build/Advanced-Portals-Spigot-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server_data/plugins/plugins-build/AxiomPaper-4.0.3-for-MC1.20.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server_data/plugins/plugins-build/worldedit-bukkit-7.2.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

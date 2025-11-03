@@ -1,7 +1,9 @@
 # Type de Servidor [LOBBY, MINIGAMES]
-serverType: MINIGAMES
+serverType: MINIGAME # tipo de servidor
 
 # Type de MiniGame []
-minigameType: TestMinigame
-countdownTime: 10
-minPlayer: 3
+minigameType: SoulHunter # Nombre del minijuego
+waitingCountdown: 10 # Tiempo de espera para que lleguen mas jugadores
+preGameDuration: 5 # duracion de la espera de mas jugadores
+gameDuration: 90 # duracion del juego
+minPlayer: 2 # jugadores minimos para empezar a jugar

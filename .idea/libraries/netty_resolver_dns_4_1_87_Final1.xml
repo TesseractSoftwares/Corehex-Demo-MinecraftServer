@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-resolver-dns-4.1.87.Final1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/libraries/io/netty/netty-resolver-dns/4.1.87.Final/netty-resolver-dns-4.1.87.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

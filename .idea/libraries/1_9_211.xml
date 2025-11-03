@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.9.211">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/jetbrains/kotlin/kotlin-reflect/1.9.21/kotlin-reflect-1.9.21.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/jetbrains/kotlin/kotlin-reflect/1.9.21/kotlin-reflect-1.9.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

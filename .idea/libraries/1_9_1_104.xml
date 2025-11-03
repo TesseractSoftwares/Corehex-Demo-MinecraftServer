@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.9.1.104">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/sayandev/stickynote-core/1.9.1.10/stickynote-core-1.9.1.10.jar-relocated-1637773711.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/sayandev/stickynote-core/1.9.1.10/stickynote-core-1.9.1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

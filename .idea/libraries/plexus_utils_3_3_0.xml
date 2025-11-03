@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="plexus-utils-3.3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_builders/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

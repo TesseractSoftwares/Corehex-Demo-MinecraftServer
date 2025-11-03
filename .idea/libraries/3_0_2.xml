@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="3.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar-relocated-236152233.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

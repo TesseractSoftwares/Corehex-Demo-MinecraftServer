@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="2.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

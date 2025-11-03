@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-transport-classes-epoll-4.1.87.Final2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_builders/libraries/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

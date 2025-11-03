@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="plugins8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/Advanced-Portals-Spigot-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/floodgate-spigot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/worldedit-bukkit-7.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/AxiomPaper-4.0.3-for-MC1.20.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/worldguard-bukkit-7.0.9-dist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/SayanVanish-1.7.0-SNAPSHOT-build.271-5e3e2cb-bukkit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/praxcore-paper-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_minigame/plugins/NexusCraft-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

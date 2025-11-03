@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar-relocated-236152233.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

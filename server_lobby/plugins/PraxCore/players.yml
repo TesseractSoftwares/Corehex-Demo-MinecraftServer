@@ -1,0 +1,14 @@
+players:
+  f767686d-6681-40ad-b597-69dde80e84b2:
+    passwordHash: $2a$10$OP1A7o9DaKRD90Q7nD545.kioHtsN11NsbmgsLrc3mF7CRorx2IS2
+    email: hola@gmail.com
+    registrationIp: 172.67.70.67
+    clientType: JAVA
+    versionOnRegister: '763'
+    birthdate: 15-05-2004
+    firstLogin: 2025/10/30 14:14:43
+    loginCount: 2
+    lastLogin: 2025/10/30 14:15:00
+    playtime: 18930
+
+

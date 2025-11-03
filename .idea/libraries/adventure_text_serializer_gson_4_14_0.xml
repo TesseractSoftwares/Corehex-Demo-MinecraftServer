@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="adventure-text-serializer-gson-4.14.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

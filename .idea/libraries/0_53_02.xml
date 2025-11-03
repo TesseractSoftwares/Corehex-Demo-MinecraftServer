@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="0.53.02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/jetbrains/exposed/exposed-kotlin-datetime/0.53.0/exposed-kotlin-datetime-0.53.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/org/jetbrains/exposed/exposed-kotlin-datetime/0.53.0/exposed-kotlin-datetime-0.53.0.jar-relocated-236152233.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

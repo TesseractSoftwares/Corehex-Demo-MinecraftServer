@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-model-builder-3.8.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_builders/libraries/org/apache/maven/maven-model-builder/3.8.5/maven-model-builder-3.8.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

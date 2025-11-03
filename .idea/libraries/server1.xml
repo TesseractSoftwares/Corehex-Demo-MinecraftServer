@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="server1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

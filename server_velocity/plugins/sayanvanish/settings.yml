@@ -1,0 +1,13 @@
+general:
+  server-id: velocity-9498f5cc-c987-4b14-904a-7c0494f30a88
+  language: en_US
+  purge-online-history-on-startup: true
+  cache-update-period-millis: 300
+  basic-cache-update-period-millis: 5000
+  include-prefix-in-messages: true
+command:
+  name: sayanvanishproxy
+  aliases:
+  - vp
+  - vanishp
+  - sv

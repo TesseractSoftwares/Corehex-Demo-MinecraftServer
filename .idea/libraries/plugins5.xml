@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="plugins5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/Advanced-Portals-Spigot-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/worldedit-bukkit-7.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/AxiomPaper-4.0.3-for-MC1.20.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/LuckPerms-Bukkit-5.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/NexusCraft.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_docker/server-lobby/plugins/PraxCore-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

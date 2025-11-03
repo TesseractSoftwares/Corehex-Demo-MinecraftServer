@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/server_velocity/plugins/stickynote/lib/commons-logging/commons-logging/1.2/commons-logging-1.2.jar-relocated-236152233.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

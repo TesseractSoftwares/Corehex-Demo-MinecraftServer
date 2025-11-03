@@ -34,13 +34,13 @@ prevent-client-proxy-connections = true
 #                  unable to implement network level firewalling (on a shared host).
 # - "modern":      Forward player IPs and UUIDs as part of the login process using
 #                  Velocity's native forwarding. Only applicable for Minecraft 1.13 or higher.
-player-info-forwarding-mode = "MODERN"
+player-info-forwarding-mode = "modern"
 
 # If you are using modern or BungeeGuard IP forwarding, configure a file that contains a unique secret here.
 # The file is expected to be UTF-8 encoded and not empty.
 forwarding-secret-file = "forwarding.secret"
 
-# Announce whether or not your server supports Forge. If you run a modded server, we
+# Announce whether your server supports Forge. If you run a modded server, we
 # suggest turning this on.
 # 
 # If your network runs one modpack consistently, consider using ping-passthrough = "mods"
@@ -72,9 +72,9 @@ enable-player-address-logging = true
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-lobby1 = "127.0.0.1:30010"
-minigame_dbd = "127.0.0.1:30510"
-build = "127.0.0.1:30810"
+lobby1 = "lobby1:25565"
+minigames = "minigames:25565"
+builds = "builds:25565"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
@@ -88,6 +88,7 @@ try = [
 # ]
 
 [advanced]
+# Habilitar plugin messages
 # How large a Minecraft packet has to be before we compress it. Setting this to zero will
 # compress all packets, and setting it to -1 will disable compression entirely.
 compression-threshold = 256

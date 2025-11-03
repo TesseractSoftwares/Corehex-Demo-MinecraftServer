@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="configurate-yaml-4.1.21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server_minigame/libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
